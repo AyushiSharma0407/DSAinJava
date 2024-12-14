@@ -1,5 +1,6 @@
 import java.util.*;
 public class KadanesAlgo{
+    //Sumof Subarray
     //O(n)
     public static void Kadanes(int numbers[]){
         int ms = Integer.MIN_VALUE;
