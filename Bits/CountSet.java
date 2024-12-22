@@ -1,6 +1,6 @@
 import java.util.*;
 public class CountSet{
-    //Count set (1) bits in a number 
+    //Count set (means 1) bits in a number 
     //for any number n = log n + 1 for binary representation
     public static void main(String args[]){
         System.out.println(countSetBits(15));
