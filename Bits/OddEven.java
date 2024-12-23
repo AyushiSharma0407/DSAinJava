@@ -1,6 +1,7 @@
 import java.util.*;
 public class OddEven{
     //Determine if a num is odd or even using bits
+    //Lower time complexity
     public static void main(String args[]){
         OddorEven(3);
         OddorEven(44);
