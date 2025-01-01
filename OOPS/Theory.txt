@@ -1,0 +1,20 @@
+getters and setters can be used to call private words outside
+access modifiers- private default protected public
+this is used to refer to the current object
+
+$ Encapsulation - wrapping of data and methods under a single unit. it implements data hiding. eg- data and methods are put into class
+$ Constructors- special ,method invoked automatically at the time of object creationg
+// eg Pen p1 = new Pen();
+//Have same name as the class, 
+//types- non parameterized, parameterized, copy constructor (obj2= new obj2(obj1))
+//Constructor overloading- polymorphism, java knows which constructor to choose fro multiple Constructors
+Shallow copy- reference, changes reflect || Deep copy- new copy || Lazy copy
+$ Destructors- java has garbage collector, deletes objects which are not used forward in the memory
+$ Inheritance - properties and methods of base class are passed on to a derived class
+//Single level inheritance,, multi level inheritance- Animals, mammals, dogs ,, Hierarchial Inheritance- Animal --> fish, bird etc ,,Hybrid Inheritance- kuch bhi chal raha hai ,, Multiple Inheritance not in java A, B --> C used by interfaces
+$Abstraction- hiding all the unnecessary details and showing only the important parts to the user.
+
+Polymorphism- Compile time (Method Overloading)- same name but diff parameters, Run time (Method Overriding)- parent and child class have same function with different definition
+
+Packages in java are groups of similar types of classes, interfaces and sub packages
+//inbuilt and user defined packages
