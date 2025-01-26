@@ -12,9 +12,28 @@ Shallow copy- reference, changes reflect || Deep copy- new copy || Lazy copy
 $ Destructors- java has garbage collector, deletes objects which are not used forward in the memory
 $ Inheritance - properties and methods of base class are passed on to a derived class
 //Single level inheritance,, multi level inheritance- Animals, mammals, dogs ,, Hierarchial Inheritance- Animal --> fish, bird etc ,,Hybrid Inheritance- kuch bhi chal raha hai ,, Multiple Inheritance not in java A, B --> C used by interfaces
-$Abstraction- hiding all the unnecessary details and showing only the important parts to the user.
+$Abstraction- hiding all the unnecessary details and showing only the important parts to the user. abstract class A{} --> instance cant be created, can have abstract and non abstract methods,can have constructors
+constructors called acc to heirarchy
 
 Polymorphism- Compile time (Method Overloading)- same name but diff parameters, Run time (Method Overriding)- parent and child class have same function with different definition
 
 Packages in java are groups of similar types of classes, interfaces and sub packages
 //inbuilt and user defined packages
+
+**INTERFACES**
+Blueprint of a class
+multiple inheritance used
+to achieve total Abstraction
+all methods are public abstract and wo implementation
+variables are final, public and static
+
+**STATIC KEYWORD**
+used to share the same variable or method of a given class
+
+**SUPER KEYWORD**
+used to refer to immediate parent class object.
+- to access parent's properties, functions, constructors.
+
+//Constructor chaining
+
+NOTE: CLASSES CANNOT be protected or private
